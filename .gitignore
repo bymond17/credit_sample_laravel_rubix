@@ -33,3 +33,7 @@ Thumbs.db
 # Homestead(로컬 개발용)
 Homestead.json
 Homestead.yaml
+
+# ML Models (학습된 모델 파일)
+/Models/*.rbx
+/Models/*.old
