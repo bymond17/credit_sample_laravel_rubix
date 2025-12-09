@@ -1,0 +1,35 @@
+# 로그/캐시/임시
+*.log
+.phpunit.result.cache
+.phpunit.cache
+
+# 환경설정/민감정보
+.env
+.env.backup
+.env.production
+auth.json
+
+# IDE/OS/툴
+.DS_Store
+Thumbs.db
+/.idea
+/.vscode
+/.fleet
+/.nova
+/.zed
+.phpactor.json
+
+# 패키지/빌드
+/node_modules
+/vendor
+
+# Laravel 빌드/스토리지
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+
+# Homestead(로컬 개발용)
+Homestead.json
+Homestead.yaml
