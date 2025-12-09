@@ -55,7 +55,7 @@ docker-compose exec laravel-app composer require rubix/ml
 
 ## 폴더 구조
 
-
+```
 credit_sample_laravel_rubix/
 ├── app/
 │   ├── Http/Controllers/
@@ -74,7 +74,7 @@ credit_sample_laravel_rubix/
 ├── docker-compose.yml                     # 도커 컴포즈 설정
 ├── Dockerfile                             # 도커 이미지 설정
 └── README.md                              # 이 파일
-
+```
 
 ---
 
